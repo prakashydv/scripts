@@ -1,0 +1,1 @@
+ffmpeg -i %1 -r 1/1 %05d.bmp
