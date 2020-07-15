@@ -1,5 +1,5 @@
 @echo off
-cdb -z %1 -y srv*C:\nvsymbols*http://dispsym/sym;srv*C:\nvsymbols*http://msdl.microsoft.com/download/symbols;srv*C:\nvsymbols*\\builds\RetailDebug\NvVADWaveRT\gs_03_30\3.30.4\NvVAD -logo %1.analyze.txt -lines -c "!analyze -v;lmDvmnvspcaps*;q"
+cdb -z %1 -y srv*C:\nvsymbols*http://dispsym/sym;srv*C:\nvsymbols*http://msdl.microsoft.com/download/symbols;srv*C:\nvsymbols*\\some\location -logo %1.analyze.txt -lines -c "!analyze -v;lmDvmnvspcaps*;q"
 rem cdb -z %1 -y srv*C:\nvsymbols*http://dispsym/sym -logo %1.analyze.txt -lines -c "!analyze -v;lmDvmnvspcaps*;q"
 echo %1, >> log.txt
 findstr /B FAILURE_BUCKET_ID %1.analyze.txt >> log.txt
