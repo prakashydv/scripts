@@ -1,0 +1,1 @@
+ffmpeg -i %1 -c:a copy -c:v h264 -b:v %2M %1-%2Mbps.mp4

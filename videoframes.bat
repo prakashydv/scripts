@@ -1,0 +1,1 @@
+ffprobe -print_format xml -show_frames -select_streams v -pretty -show_streams -i %1 > %2

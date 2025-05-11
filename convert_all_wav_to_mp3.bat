@@ -1,0 +1,1 @@
+for %%i in (*.wav) do call convert.bat "%%i"

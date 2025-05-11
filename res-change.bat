@@ -1,0 +1,1 @@
+ffmpeg -i %1 -s %2 -strict -2 %1-%2.mp4

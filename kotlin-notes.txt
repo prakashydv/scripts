@@ -1,0 +1,24 @@
+// Kotlin notes
+
+val value: String = "immutable"
+var variable: String = "mutable"
+val intVal = Int = 1_000_000 // _ for clarity is allowed!
+
+// types - any / Int 32 / Double 2.0 / Float 9.0F / String "hello" / Char 'A' 
+// 'A'.code -> 65
+// "string-value".length / lowerCase / upperCase / beginsWith / endWith / equals
+
+// type check -> valueA is Int
+  
+val str: String = when {
+   a == 1 -> "Case 1"
+   a == 2 -> "Case 2"
+   else -> "None"
+}
+
+for (i in 1..10 step 3)      // 1, 4, 7
+for (i in 1 until 10 step 3) // 1, 4, 7, 10
+for (i in 10 downTo 1) 
+while( <condition> )
+
+

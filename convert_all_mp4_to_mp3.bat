@@ -1,0 +1,1 @@
+for %%i in (*.mp4) do call convert.bat "%%i"
